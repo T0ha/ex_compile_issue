@@ -1,5 +1,5 @@
 defmodule Compile do
-  require Compile.Delay.Require
+  require Compile.Delay.Require.O, as: ModO
   @moduledoc """
   Documentation for `Compile`.
   """
